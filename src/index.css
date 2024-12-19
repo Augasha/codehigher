@@ -1,0 +1,167 @@
+/* General Styles */
+
+.app-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  background: #1584f4;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cta-button {
+  background-color: #e27f41;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e53e3e;
+}
+
+/* Services Section */
+.services {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.service-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Value Proposition Section */
+.value-proposition {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.value-proposition h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.value-proposition ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.value-proposition li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.statistics {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.statistics div {
+  text-align: center;
+}
+
+.statistics h3 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+/* About Us Section */
+.about-us {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-us h3 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.testimonial {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.testimonial h4 {
+  font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #1e90ff;
+  color: white;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
