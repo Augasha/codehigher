@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Portfolio from './Portfolio'
 function HomePage() {
   return (
 
@@ -74,8 +74,9 @@ function HomePage() {
           <li>Transparency</li>
         </ul>
       </section>
-
-
+      <section>
+        <Portfolio/>
+      </section>
       <section className="testimonials">
         <h2>Client Success Stories</h2>
         <div className="testimonial">

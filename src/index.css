@@ -165,3 +165,58 @@
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
+.portfolio {
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.portfolio-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.portfolio-images,
+.portfolio-projects,
+.portfolio-templates {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.portfolio-images img,
+.portfolio-card img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.portfolio-card {
+  width: 150px;
+  text-align: center;
+}
+
+.portfolio-card h5 {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.portfolio-section p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
